@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitilik</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container green-theme"> <!-- Default olarak yeşil tema -->
+        <div class="search-box">
+            <input type="text" id="searchBox" placeholder="Bitilik’te">
+            <button onclick="searchWord()">Ara!</button>
+        </div>
+        <div class="result" id="result">
+            <!-- Description ve related-words buraya eklenecek -->
+        </div>
+    </div>
+    <div class="button-container">
+        <button id="greenButton" onclick="switchToDictionary('green')">Mahi Sözlük</button>
+        <button id="orangeButton" onclick="switchToDictionary('orange')">Mahi Etimoloji</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

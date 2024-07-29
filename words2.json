@@ -1,0 +1,30 @@
+{
+    "yeni-kelime1": {
+        "type": "isim",
+        "description": "Bu, yeni-kelime1 kelimesinin açıklamasıdır.",
+        "related": ["yeni-kelime2"]
+    },
+    "yeni-kelime2": {
+        "redirect": "yeni-kelime1"
+    },
+    "örnek-kelime1": {
+        "type": "sıfat",
+        "description": "Bu, örnek-kelime1 kelimesinin açıklamasıdır.",
+        "related": ["örnek-kelime2"]
+    },
+    "örnek-kelime2": {
+        "redirect": "örnek-kelime1"
+    },
+    "o": {
+        "type": "pronoun",
+        "description": "<b>‹</b> <em>Middle</em> o “same meaning”<br><b>‹</b> <em>Old</em> ol “same meaning”<br><b>‹</b> <em>Proto</em> *ol- “demonstrative adjective and third person singular pronoun”"
+    },
+    "uy-": {
+        "type": "verb",
+        "description": "<b>‹</b> <em>Middle</em> uy- “to follow”<br>Standard /ḏ/ › /y/ transformation.<br><b>‹</b> <em>Old</em> uḏ- “same meaning”<br><b>‹</b> <em>Proto</em> *uḏ- “to follow”"
+    },
+    "iz": {
+        "type": "noun",
+        "description": "<br><b>‹</b> <em>Proto</em> iḏ- “to walk”"
+    }
+}

@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #121212;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.29);
+    z-index: 1;
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Baþlýk ile arama butonu arasýndaki boþluðu azalt */
+}
+
+.search-box input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #2d6536;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 5px 0;
+    width: 25%;
+    background-color: #2d6536;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.search-box button:hover {
+    background-color: #1a3b20;
+    color: #ffff;
+}
+
+.result {
+    position: relative;
+}
+
+.result h3 {
+    font-size: 30px;
+    color: #000000;
+}
+
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.result button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: #55bd67;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.word-meaning {
+    color: #575a7b;
+}
+
+.word-example {
+    color: #575a7b;
+    font-style: italic;
+    border-left: 5px solid #55bd67;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.related-words {
+    background-color: #121212; /* Siyah arka plan */
+    padding: 20px; /* Butonlar için padding */
+    display: flex;
+    flex-wrap: wrap; /* Butonlarý sarmak için */
+    justify-content: center; /* Orta hizalama */
+    gap: 10px; /* Butonlar arasýndaki boþluk */
+}
+
+.related-words a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2d6536; /* Yeþil arka plan */
+    color: #ffffff; /* Beyaz yazý rengi */
+    font-weight: bold; /* Kalýn font */
+    text-decoration: none; /* Alt çizgi kaldýr */
+    border-radius: 5px; /* Köþeleri yuvarlat */
+    font-size: 16px; /* Font boyutu */
+    transition: background-color 0.3s; /* Geçiþ efekti */
+}
+
+.related-words a:hover {
+    background-color: #1a3b20; /* Hover etkisi için daha koyu yeþil */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    background-color: #121212; /* Siyah arka plan */
+    padding: 20px; /* Butonlar için padding */
+}
+
+.button-container button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#greenButton {
+    background-color: #2d6536;
+    color: #ffffff;
+}
+
+#orangeButton {
+    background-color: #ff8c00;
+    color: #ffffff;
+}
+
+/* Yeþil tema */
+.green-theme .search-box input {
+    border-bottom: 3px solid #2d6536;
+}
+
+.green-theme .search-box button {
+    background-color: #2d6536;
+}
+
+.green-theme .search-box button:hover {
+    background-color: #1a3b20;
+}
+
+.green-theme .result .details {
+    color: #55bd67;
+}
+
+/* Turuncu tema */
+.orange-theme .search-box input {
+    border-bottom: 3px solid #ff8c00;
+}
+
+.orange-theme .search-box button {
+    background-color: #ff8c00;
+}
+
+.orange-theme .search-box button:hover {
+    background-color: #e07a00;
+}
+
+.orange-theme .result .details {
+    color: #ff8c00;
+}

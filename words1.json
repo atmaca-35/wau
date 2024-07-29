@@ -1,0 +1,32 @@
+{
+    "+cUk": {
+        "type": "fiil",
+        "description": "Bu, +cUk kelimesinin açıklamasıdır.",
+        "related": ["cik", "cık", "cük"]
+    },
+    "cik": {
+        "redirect": "+cUk"
+    },
+    "cık": {
+        "redirect": "+cUk"
+    },
+    "cük": {
+        "redirect": "+cUk"
+    },
+    "aç-": {
+        "type": "fiil",
+        "description": "Bu, aç- kelimesinin açıklamasıdır.",
+        "related": ["açmak"]
+    },
+    "açmak": {
+        "redirect": "aç-"
+    },
+    "az-": {
+        "type": "geçişşiz eylem",
+        "description": "Yoldan çıkmak, şaşmak.",
+        "related": ["azmak"]
+    },
+    "azmak": {
+        "redirect": "az-"
+    }
+}
